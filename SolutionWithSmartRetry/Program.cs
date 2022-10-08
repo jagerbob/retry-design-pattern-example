@@ -39,7 +39,7 @@ catch (Exception e)
 
 try
 {
-    // Sending a request to a route that will respond with 403 error code
+    // Sending a request to a route that will respond with 500 error code
     var response = await handler.Retry(async () => {
         var response = await client.GetAsync("http://localhost:5071/AwfullAPI/InternalError/");
         response.EnsureAPISuccess();
