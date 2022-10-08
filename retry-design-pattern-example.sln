@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetryPattern", "RetryPattern\RetryPattern.csproj", "{EE283CDB-8311-468D-85E7-70E4E858089D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{0A9E2B5F-BC8D-4045-93C0-E7C8BB1966E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitialProblem", "InitialProblem\InitialProblem.csproj", "{053DFD08-D61F-4155-A9E5-7E4139A0FCB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionWithBasicRetry", "SolutionWithBasicRetry\SolutionWithBasicRetry.csproj", "{B7680828-E8A0-4163-96A0-26E7E90D607B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionWithSmartRetry", "SolutionWithSmartRetry\SolutionWithSmartRetry.csproj", "{0F0B7401-FD49-4B1E-8DDC-70EC97EDAE31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwfulAPI", "APIResponder\AwfulAPI.csproj", "{5C3FC543-6C2C-428B-B28A-DD8BB843CA7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE283CDB-8311-468D-85E7-70E4E858089D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE283CDB-8311-468D-85E7-70E4E858089D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE283CDB-8311-468D-85E7-70E4E858089D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE283CDB-8311-468D-85E7-70E4E858089D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9E2B5F-BC8D-4045-93C0-E7C8BB1966E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9E2B5F-BC8D-4045-93C0-E7C8BB1966E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9E2B5F-BC8D-4045-93C0-E7C8BB1966E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9E2B5F-BC8D-4045-93C0-E7C8BB1966E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{053DFD08-D61F-4155-A9E5-7E4139A0FCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053DFD08-D61F-4155-A9E5-7E4139A0FCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053DFD08-D61F-4155-A9E5-7E4139A0FCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053DFD08-D61F-4155-A9E5-7E4139A0FCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7680828-E8A0-4163-96A0-26E7E90D607B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7680828-E8A0-4163-96A0-26E7E90D607B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7680828-E8A0-4163-96A0-26E7E90D607B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7680828-E8A0-4163-96A0-26E7E90D607B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0B7401-FD49-4B1E-8DDC-70EC97EDAE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0B7401-FD49-4B1E-8DDC-70EC97EDAE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0B7401-FD49-4B1E-8DDC-70EC97EDAE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0B7401-FD49-4B1E-8DDC-70EC97EDAE31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3FC543-6C2C-428B-B28A-DD8BB843CA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3FC543-6C2C-428B-B28A-DD8BB843CA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3FC543-6C2C-428B-B28A-DD8BB843CA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3FC543-6C2C-428B-B28A-DD8BB843CA7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
